@@ -1,3 +1,9 @@
 {
-  "outputDirectory": "public"
+  "version": 2,
+  "builds": [
+    { "src": "Logo.png", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/Logo.png", "dest": "/Logo.png" }
+  ]
 }
